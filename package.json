@@ -21,6 +21,7 @@
     "eslint-plugin-promise": "4.0.1",
     "eslint-plugin-standard": "4.0.0",
     "grunt": "^1.0.3",
+    "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-sass": "^1.0.0",
     "load-grunt-config": "0.19.2",
     "grunt-eslint": "21.0.0"
