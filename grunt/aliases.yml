@@ -3,4 +3,7 @@ test:
 
 build:
   - 'clean'
+  - 'test'
+  - 'copy:buildChrome'
+  - 'copy:buildFirefox'
   - 'sass'
