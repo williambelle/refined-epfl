@@ -7,3 +7,10 @@ build:
   - 'copy:buildChrome'
   - 'copy:buildFirefox'
   - 'sass'
+
+serve:
+  - 'build'
+  - 'watch'
+
+default:
+  - 'serve'
