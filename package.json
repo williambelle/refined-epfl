@@ -2,7 +2,7 @@
   "name": "refined-epfl",
   "private": true,
   "version": "0.0.1",
-  "description": "Browser extension that improves user experience of EPFL website",
+  "description": "Improves user experience of EPFL website",
   "keywords": [],
   "author": "William Belle <william.belle@gmail.com>",
   "license": "MIT",
@@ -11,7 +11,8 @@
     "node": ">=10"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "build": "grunt build"
   },
   "devDependencies": {
     "eslint-config-standard": "12.0.0",
@@ -20,6 +21,7 @@
     "eslint-plugin-promise": "4.0.1",
     "eslint-plugin-standard": "4.0.0",
     "grunt": "^1.0.3",
+    "grunt-contrib-sass": "^1.0.0",
     "load-grunt-config": "0.19.2",
     "grunt-eslint": "21.0.0"
   }
