@@ -12,6 +12,7 @@
   },
   "scripts": {
     "build": "grunt build",
+    "package": "grunt package",
     "serve": "grunt serve",
     "test": "grunt test"
   },
@@ -23,6 +24,7 @@
     "eslint-plugin-standard": "4.0.0",
     "grunt": "^1.0.3",
     "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-compress": "^1.4.3",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.1.0",
