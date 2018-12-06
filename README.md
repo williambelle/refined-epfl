@@ -30,6 +30,7 @@ A Web Extension to improve user experience of EPFL website.
 
 Features:
 
+  * Fix checkbox alignment
   * Fix negative left margin of lists
   * And much more to come
 
