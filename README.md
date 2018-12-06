@@ -32,6 +32,7 @@ Features:
 
   * Fix checkbox alignment
   * Fix negative left margin of lists
+  * Fix radio button alignment
   * And much more to come
 
 Install
