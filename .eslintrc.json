@@ -7,7 +7,8 @@
     "browser": true
   },
   "globals": {
-    "chrome": true
+    "chrome": true,
+    "refinedEPFL": true
   },
   "rules": {
     "max-len": [2, 80],
