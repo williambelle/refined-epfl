@@ -30,6 +30,6 @@
     "grunt-contrib-watch": "^1.1.0",
     "grunt-eslint": "21.0.0",
     "grunt-jsdoc": "^2.3.0",
-    "load-grunt-config": "0.19.2"
+    "load-grunt-config": "1.0.1"
   }
 }
