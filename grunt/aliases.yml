@@ -4,6 +4,7 @@ test:
 build:
   - 'clean'
   - 'test'
+  - 'jsdoc'
   - 'copy:buildChrome'
   - 'copy:buildFirefox'
   - 'sass'
