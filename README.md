@@ -33,6 +33,7 @@ Features:
   * Fix checkbox alignment
   * Fix negative left margin of lists
   * Fix radio button alignment
+  * Fix footer links and copyright vertical alignment
   * And much more to come
 
 Install
