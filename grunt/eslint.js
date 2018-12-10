@@ -4,5 +4,10 @@ module.exports = {
   options: {
     configFile: '.eslintrc.json'
   },
-  target: ['**/*.js', '!node_modules/**/*.js', '!dist/**/*.js']
+  target: [
+    '**/*.js',
+    '!node_modules/**/*.js',
+    '!dist/**/*.js',
+    '!docs/jsdoc/**/*.js'
+  ]
 };

@@ -64,3 +64,4 @@ typings/
 .sass-cache
 dist
 package
+docs/jsdoc
