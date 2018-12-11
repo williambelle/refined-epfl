@@ -6,6 +6,7 @@
  * @namespace
  */
 refinedEPFL.themes = {
+
   /**
    * Apply epfl.css theme.
    *
@@ -21,4 +22,5 @@ refinedEPFL.themes = {
     link.rel = 'stylesheet';
     document.getElementsByTagName('head')[0].appendChild(link);
   }
+
 };

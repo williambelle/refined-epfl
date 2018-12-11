@@ -15,11 +15,16 @@
     "js": [
       "js/utils.js",
       "js/themes.js",
+      "js/people.js",
       "js/contentscript.js"
     ],
     "matches": [ "*://*.epfl.ch/*" ],
     "run_at": "document_end"
   }],
+
+  "permissions": [
+    "*://*.epfl.ch/*"
+  ],
 
   "icons": {
     "48": "images/icon-48.png"

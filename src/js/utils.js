@@ -14,6 +14,7 @@ var refinedEPFL = { };
  * @namespace
  */
 refinedEPFL.utils = {
+
   /**
    * Check if template is Web2018
    *
@@ -29,5 +30,19 @@ refinedEPFL.utils = {
       return listClass.contains('header');
     }
     return false;
+  },
+
+  /**
+   * Check if current host is what we expect
+   *
+   * @memberOf refinedEPFL.utils
+   * @method isHostService
+   * @param {string} expected hostname
+   * @returns {Boolean}
+   */
+  isHostService: function (host) {
+    var h = window.location.hostname;
+    return h === host;
   }
+
 };
