@@ -30,10 +30,13 @@ A Web Extension to improve user experience of EPFL website.
 
 Features:
 
-  * Fix checkbox alignment
-  * Fix negative left margin of lists
-  * Fix radio button alignment
-  * Fix footer links and copyright vertical alignment
+  * General layout
+    * Fix checkbox alignment
+    * Fix negative left margin of lists
+    * Fix radio button alignment
+    * Fix footer links and copyright vertical alignment
+  * people.epfl.ch
+    * Add sciper after name in profile
   * And much more to come
 
 Install

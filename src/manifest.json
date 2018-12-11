@@ -8,11 +8,16 @@
     "js": [
       "js/utils.js",
       "js/themes.js",
+      "js/people.js",
       "js/contentscript.js"
     ],
     "matches": [ "*://*.epfl.ch/*" ],
     "run_at": "document_end"
   }],
+
+  "permissions": [
+    "*://*.epfl.ch/*"
+  ],
 
   "icons": {
     "16": "images/icon-16.png",
