@@ -1,7 +1,7 @@
 {
   "name": "refined-epfl",
   "private": true,
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Improves user experience of EPFL website",
   "keywords": [],
   "author": "William Belle <william.belle@gmail.com>",
