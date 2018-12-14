@@ -22,7 +22,13 @@
     "run_at": "document_end"
   }],
 
+  "options_ui": {
+    "page": "options.html",
+    "browser_style": true
+  },
+
   "permissions": [
+    "storage",
     "*://*.epfl.ch/*"
   ],
 

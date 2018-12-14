@@ -12,11 +12,12 @@ refinedEPFL.themes = {
    *
    * @memberOf refinedEPFL.themes
    * @method applyTheme
+   * @param {string} theme name
    */
-  applyTheme: function () {
+  applyTheme: function (theme) {
     var link = document.createElement('link');
     link.href = chrome.extension.getURL(
-      'css/themes/epfl.css'
+      'css/themes/' + theme.colorTheme + '.css'
     );
     link.type = 'text/css';
     link.rel = 'stylesheet';

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Refined EPFL</title>
+  <style>
+    .choice {
+      line-height: 30px;
+    }
+    #theme {
+      width: 150px;
+    }
+    #save {
+      text-align: center;
+      width: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <span class="choice">Choose theme color:</span>
+  <select id="theme" class="browser-style">
+    <option value="notheme">No theme</option>
+    <option value="epfl">EPFL</option>
+    <option disabled>──────────</option>
+    <option value="blue">Blue</option>
+  </select>
+
+  <br />
+  <br />
+  <div id="status" style="color:green"></div>
+  <br />
+  <button id="save" class="browser-style">Save</button>
+
+  <script src="js/options.js"></script>
+</body>
+</html>
