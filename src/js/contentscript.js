@@ -5,7 +5,14 @@
 // After document load
 (function () {
   if (refinedEPFL.utils.isWeb2018()) {
-    refinedEPFL.themes.applyTheme();
+    // Retrieve theme from Options
+    // epfl is the default theme
+    chrome.storage.local.get('colorTheme', function (theme) {
+      if (!theme.colorTheme) {
+        theme.colorTheme = 'epfl';
+      }
+      refinedEPFL.themes.applyTheme(theme);
+    });
   }
 
   if (refinedEPFL.utils.isHostService('people.epfl.ch')) {
