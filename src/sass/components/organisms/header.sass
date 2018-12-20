@@ -2,6 +2,24 @@
   h1
     color: $color
 
+.header
+  .nav-header
+    li
+      a
+        color: $color-text
+
+      a:after,
+      &.dropdown .btn:before
+        background: $color
+
+      a:hover,
+      a.open,
+      a.active,
+      &.active a,
+      a:focus,
+      &.current-menu-item a
+        color: $color
+
 @media (max-width: 1199px)
   .header-light
     .header-light-content
