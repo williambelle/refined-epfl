@@ -36,6 +36,7 @@ Features:
     * Fix radio button alignment
     * Fix footer links and copyright vertical alignment
     * Fix logo alignment with mobile in header
+    * Fix mobile menu alignment
   * people.epfl.ch
     * Add sciper after name in profile
   * And much more to come
